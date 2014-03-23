@@ -1,0 +1,51 @@
+/******
+Управление формами
+*/
+
+.DownsDiv{
+    border: 1px solid #cccccc;
+    display: none;
+    padding: 5px;
+    position: absolute;
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 1%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(255,255,255,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 1%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 1%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 1%,rgba(238,238,238,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 1%,rgba(238,238,238,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+}
+
+.DownsDiv div:hover{
+    background: #cccccc;
+}
+
+.DownsDiv div span{
+    background: #F6EBBC;
+    font-weight: bold;
+    border: 1px solid #ECDFA7;
+    border-radius: 2px;
+}
+
+.Ajaxcont{
+    display: block;
+    /*position: static;*/
+}
+
+.SFbold{
+    font-weight: bold;
+}
+
+.SFnotfilled{
+    display: block;
+    padding: 3px;
+    position: absolute;
+    z-index: 999;
+    border: 1px solid #ac1b1b;
+    background: #F6EBBC;
+    border-radius: 5px;
+    color:#ac1b1b;
+    opacity: 0.9;
+
+}

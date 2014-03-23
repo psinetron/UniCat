@@ -1,0 +1,101 @@
+/*****
+Стиль дива при успешном добавлении записи
+****/
+.UniCatAllOK{
+    border:1px solid #008000 ;
+    background: #E1F7E1;
+    border-radius: 10px;
+    padding: 3px;
+    display: block;
+}
+
+/****
+Стиль для списка из чекбоксов
+***/
+.UniCatCheckSelect{
+    border: 1px solid #000;
+}
+
+
+
+.Form1BlockDiv{
+    border: 1px solid #D3D3D3;
+    border-radius: 10px;
+    padding: 5px !important;
+}
+.Form1Gray{
+    color:#939393;
+}
+.Form1simpletable{
+    border: none;
+    width: 100%;
+}
+.Form1simpletable td{
+    vertical-align: top;
+    padding: 3px;
+    border: none !important;
+
+}
+.Form1OpisanieArea{
+    width: 100%;
+    height: 100px;
+}
+
+.Form1ShortInput{
+    width: 50px;
+}
+
+.Form2daterem{
+    text-decoration: line-through;
+}
+
+.Form2BlockDiv{
+    border: 1px solid #D3D3D3;
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 5px !important;
+    overflow: auto;
+}
+
+.Form2MiniDiv{
+    float: left;
+    margin: 5px;
+}
+
+.Form2Table{
+width: 100%;
+}
+
+.Form2Table td{
+    border: none;
+    vertical-align: middle;
+    padding: 0px !important;
+    margin:0px !important;
+
+}
+
+
+.Form3Redprice{
+    display: block;
+    float: left;
+    background: #ff0000;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.Form3ClearBoth{
+    clear: both;
+}
+
+.Form3Title{
+    font-size: 18px;
+    color: #757575;
+    font-weight: bold;
+}
+
+
+
+

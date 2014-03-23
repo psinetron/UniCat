@@ -1,0 +1,200 @@
+/******
+Управление формами
+*/
+
+.admin-table{
+    margin: 0px;
+    width: 100%;
+}
+
+.admin-table td{
+    width: 50%;
+    margin: 0;
+    vertical-align: top;
+}
+
+.inputFormsPosition{
+    width: 100%;
+    height: 400px;
+}
+
+.formscreater{
+    display: none;
+
+    padding: 10px;
+
+
+}
+
+.formscreaterfind{
+    display: none;
+    border: 1px solid #DFDFDF;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.SFmargin{
+    margin: 5px;
+}
+
+.codeediv{
+    border: 1px solid #C7C7C7;
+    border-radius: 5px;
+    margin: 5px 0 5px 0;
+    padding: 20px 5px 20px 20px;
+    position: relative;
+    background: #FFFFD7;
+}
+
+.tableheader{
+    border-bottom:1px solid #c7c7c7;
+    box-shadow: 0 1px 0 #FFFFFF;
+    text-shadow: 0 1px 0 #FFFFFF;
+    background: linear-gradient(to top, #ECECEC, #F9F9F9) repeat scroll 0 0 #F1F1F1;
+    border-radius: 5px 5px 0 0;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding: 7px 10px;
+
+}
+.bordertable{
+    border: 1px solid #C7C7C7;
+    border-radius: 5px;
+    background: #F6F6F6;
+}
+
+.mainSFdiv{
+    margin-right: 20px;
+}
+
+.innerTable td {
+    margin-right: 10px;
+    padding-right: 10px;;
+}
+
+
+/*****
+Модерирование
+***/
+.moderTable{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.moderTableRightTD{
+    width: 200px;
+    text-align: center;
+}
+
+.SFPublished{
+    background: #E5EED4;
+}
+.SFPublished:hover{
+    background: #DBEBBA;
+}
+
+.SFUnpublished{
+    background: #E5EBF3;
+}
+.SFUnpublished:hover{
+    background: #D4E0EE;
+}
+
+.SFPublished td{
+    padding: 10px;
+    border-collapse: collapse;
+    border: 1px solid #558000;
+}
+
+.SFUnpublished td{
+    padding: 10px;;
+    border-collapse: collapse;
+    border: 1px solid #003F80;
+}
+
+.SFfloatleft{
+    float:left;
+}
+
+.AdminLinkUp{
+    color: #ffffff !important;
+    display: inline-block;
+    background: url("../images/wp-comments.png") !important;
+    background-repeat: no-repeat!important;
+    background-position: center!important;
+    width: 18px !important;
+    outline: 0 none;
+    text-align: center !important;
+}
+
+.UniCatAdminTblDiv{
+    border-right: 1px solid #DFDFDF !important;
+    padding-right: 10px;
+    vertical-align: middle !important;
+}
+
+.UniCatAdminTblDivR{
+    border-left: 1px solid #DFDFDF !important;
+    padding-left: 10px;
+    vertical-align: middle !important;
+}
+
+.UniCatDefaulthidden{
+    display: none;
+}
+
+.UniCatPointer{
+    cursor: pointer !important;
+    color: #777777;
+}
+
+.AdminUpperMessages {
+    color: #ffffff !important;
+    background: #ff0000;
+    border-radius: 10px;
+    padding: 2px 5px 2px 5px !important;
+}
+
+.UniCatFloatRight {
+    float: right !important;
+}
+
+.UniCatFullWidth {
+    width: 100%;
+}
+
+.UniCatFixedTopRight{
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    z-index: 99999;
+}
+
+.UniCatAjaxLoaded{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -32px;
+    margin-top: -32px;
+    z-index: 99999;
+    display: none;
+}
+
+.UniCatEditlabel{
+    border: none;
+    background: none;
+    color: #4575BB;
+    cursor: pointer;
+}
+
+.UniCatEditlabel:hover{
+    color: #DC3333;
+}
+
+.UniCatAbsoluteCode{
+    position: absolute;
+    margin-left: 50px;
+}
